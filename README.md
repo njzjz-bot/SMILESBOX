@@ -25,15 +25,6 @@ an example Jupyter Notebook can be found here:
 `./examples/example.ipynb`
 
 
-```
-from smilesbox.smilesbox import SMILESbox
-sb = SMILESbox()
-sb.smiles_to_atoms('CC')
-sb.add_box([10,10,10])
-sb.save('molecule.vasp')
-```
-
-
 <p align="center">
 <img src="./static/POSCAR.png" height="300">
 </p>
