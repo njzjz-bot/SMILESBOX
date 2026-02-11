@@ -1,11 +1,7 @@
-from ast import Attribute
 from ase import Atoms
 from ase.data import atomic_numbers
-from ase.io import read,write
-import os
 from openbabel import pybel
 import numpy as np 
-import math 
 
 class SMILESbox:
     
